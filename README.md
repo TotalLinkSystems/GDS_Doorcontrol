@@ -70,3 +70,20 @@ Once logged in and the password is changed:
     Navigate to Users to create and manage door access users
 
     Navigate to Logs to search logs by door or user
+
+📱 Mobile App
+
+Once everything is set up, users can download and use the app:
+
+    📲 Available in Google Play and Apple App Store
+
+🔧 First Time App Setup
+
+    Open the app and go to Settings (upper right corner)
+
+    In the Server IP section, enter:
+    <server-ip>:<backend-port> (e.g., 192.168.1.100:8080)
+
+    Tap Save
+
+    Now you can log in and control any doors you’ve been granted access to
