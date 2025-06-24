@@ -57,9 +57,9 @@ Once the containers are running:
 
     Change the default password immediately:
 
-        Use the side menu to navigate to AdminUser
+        Use the side menu to navigate to Admin User
 
-        Click the edit icon and set a new secure password
+        Change the password and (Optionally) username
 
 🧩 Adding Devices and Users
 
@@ -69,12 +69,4 @@ Once logged in and the password is changed:
 
     Navigate to Users to create and manage door access users
 
-📸 Screenshots
-
-Include screenshots here to show:
-
-    Login screen
-
-    AdminUser password change
-
-    Reader and User management pages
+    Navigate to Logs to search logs by door or user
