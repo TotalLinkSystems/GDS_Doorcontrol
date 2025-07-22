@@ -11,6 +11,8 @@ services:
     networks:
       - door-network
     restart: always
+    volumes:
+      - gds_data:/var/lib/mysql
     healthcheck:
       test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
       interval: 30s
@@ -48,3 +50,5 @@ services:
 networks:
   door-network:
     driver: bridge
+volumes:
+  gds_data:
